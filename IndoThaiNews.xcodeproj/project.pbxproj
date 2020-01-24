@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079C41092431466317CEC933 /* Pods_IndoThaiNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B564807E7B9AC23DDC11EED9 /* Pods_IndoThaiNewsUITests.framework */; };
 		7A98B04321EDEC99002A809E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A98B04221EDEC99002A809E /* AppDelegate.swift */; };
 		7A98B04521EDEC99002A809E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A98B04421EDEC99002A809E /* ViewController.swift */; };
 		7A98B04821EDEC99002A809E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A98B04621EDEC99002A809E /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 		7A98B0B821EDFB4A002A809E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A98B0B321EDFB4A002A809E /* Router.swift */; };
 		7A98B0B921EDFB4A002A809E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A98B0B421EDFB4A002A809E /* Utils.swift */; };
 		7A98B0BA21EDFB4A002A809E /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A98B0B521EDFB4A002A809E /* SettingsBundleHelper.swift */; };
+		EADF65305101040625957055 /* Pods_IndoThaiNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2927C98FE6AEF541A33626C3 /* Pods_IndoThaiNewsTests.framework */; };
+		F6E800C4D36DC877880E3367 /* Pods_IndoThaiNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FBC2AB0086EF6BB8893579 /* Pods_IndoThaiNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2927C98FE6AEF541A33626C3 /* Pods_IndoThaiNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoThaiNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A23B65FDD5B1E46C231A135 /* Pods-IndoThaiNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoThaiNewsUITests.debug.xcconfig"; path = "Target Support Files/Pods-IndoThaiNewsUITests/Pods-IndoThaiNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A98B03F21EDEC99002A809E /* IndoThaiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoThaiNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A98B04221EDEC99002A809E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A98B04421EDEC99002A809E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +100,13 @@
 		7A98B0B321EDFB4A002A809E /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		7A98B0B421EDFB4A002A809E /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		7A98B0B521EDFB4A002A809E /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
+		A2EE73A33A676BFB586F5ED4 /* Pods-IndoThaiNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoThaiNewsUITests.release.xcconfig"; path = "Target Support Files/Pods-IndoThaiNewsUITests/Pods-IndoThaiNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD8B9DF2FA53E69DD95078E4 /* Pods-IndoThaiNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoThaiNewsTests.debug.xcconfig"; path = "Target Support Files/Pods-IndoThaiNewsTests/Pods-IndoThaiNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B564807E7B9AC23DDC11EED9 /* Pods_IndoThaiNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoThaiNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F87DCF90CC25CC66A73609 /* Pods-IndoThaiNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoThaiNews.debug.xcconfig"; path = "Target Support Files/Pods-IndoThaiNews/Pods-IndoThaiNews.debug.xcconfig"; sourceTree = "<group>"; };
+		D4FBC2AB0086EF6BB8893579 /* Pods_IndoThaiNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoThaiNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25F49C9473B5ABADD201E8B /* Pods-IndoThaiNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoThaiNewsTests.release.xcconfig"; path = "Target Support Files/Pods-IndoThaiNewsTests/Pods-IndoThaiNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE5D92FB3D6ACF9AD13DA3D0 /* Pods-IndoThaiNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoThaiNews.release.xcconfig"; path = "Target Support Files/Pods-IndoThaiNews/Pods-IndoThaiNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E800C4D36DC877880E3367 /* Pods_IndoThaiNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EADF65305101040625957055 /* Pods_IndoThaiNewsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079C41092431466317CEC933 /* Pods_IndoThaiNewsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +144,8 @@
 				7A98B05921EDECA0002A809E /* IndoThaiNewsTests */,
 				7A98B06421EDECA0002A809E /* IndoThaiNewsUITests */,
 				7A98B04021EDEC99002A809E /* Products */,
+				7B2CCC416E161061368335F7 /* Pods */,
+				92BAC07C2BF8EB6EE8E2B502 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -325,6 +342,30 @@
 			path = Uitilites;
 			sourceTree = "<group>";
 		};
+		7B2CCC416E161061368335F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6F87DCF90CC25CC66A73609 /* Pods-IndoThaiNews.debug.xcconfig */,
+				FE5D92FB3D6ACF9AD13DA3D0 /* Pods-IndoThaiNews.release.xcconfig */,
+				AD8B9DF2FA53E69DD95078E4 /* Pods-IndoThaiNewsTests.debug.xcconfig */,
+				F25F49C9473B5ABADD201E8B /* Pods-IndoThaiNewsTests.release.xcconfig */,
+				3A23B65FDD5B1E46C231A135 /* Pods-IndoThaiNewsUITests.debug.xcconfig */,
+				A2EE73A33A676BFB586F5ED4 /* Pods-IndoThaiNewsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		92BAC07C2BF8EB6EE8E2B502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4FBC2AB0086EF6BB8893579 /* Pods_IndoThaiNews.framework */,
+				2927C98FE6AEF541A33626C3 /* Pods_IndoThaiNewsTests.framework */,
+				B564807E7B9AC23DDC11EED9 /* Pods_IndoThaiNewsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -332,9 +373,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A98B06A21EDECA0002A809E /* Build configuration list for PBXNativeTarget "IndoThaiNews" */;
 			buildPhases = (
+				16207DF51F7A61E6DA41B72B /* [CP] Check Pods Manifest.lock */,
 				7A98B03B21EDEC99002A809E /* Sources */,
 				7A98B03C21EDEC99002A809E /* Frameworks */,
 				7A98B03D21EDEC99002A809E /* Resources */,
+				42E6C1DF3EFEA6183AD75A95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -349,6 +392,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A98B06D21EDECA0002A809E /* Build configuration list for PBXNativeTarget "IndoThaiNewsTests" */;
 			buildPhases = (
+				3D05F031BADF799CB2299CDA /* [CP] Check Pods Manifest.lock */,
 				7A98B05221EDECA0002A809E /* Sources */,
 				7A98B05321EDECA0002A809E /* Frameworks */,
 				7A98B05421EDECA0002A809E /* Resources */,
@@ -367,6 +411,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A98B07021EDECA0002A809E /* Build configuration list for PBXNativeTarget "IndoThaiNewsUITests" */;
 			buildPhases = (
+				3E56A69AD0584B6908F48453 /* [CP] Check Pods Manifest.lock */,
 				7A98B05D21EDECA0002A809E /* Sources */,
 				7A98B05E21EDECA0002A809E /* Frameworks */,
 				7A98B05F21EDECA0002A809E /* Resources */,
@@ -450,6 +495,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16207DF51F7A61E6DA41B72B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndoThaiNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D05F031BADF799CB2299CDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndoThaiNewsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E56A69AD0584B6908F48453 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndoThaiNewsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42E6C1DF3EFEA6183AD75A95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IndoThaiNews/Pods-IndoThaiNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IndoThaiNews/Pods-IndoThaiNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IndoThaiNews/Pods-IndoThaiNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A98B03B21EDEC99002A809E /* Sources */ = {
@@ -654,6 +785,7 @@
 		};
 		7A98B06B21EDECA0002A809E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F87DCF90CC25CC66A73609 /* Pods-IndoThaiNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -672,6 +804,7 @@
 		};
 		7A98B06C21EDECA0002A809E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5D92FB3D6ACF9AD13DA3D0 /* Pods-IndoThaiNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -690,6 +823,7 @@
 		};
 		7A98B06E21EDECA0002A809E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8B9DF2FA53E69DD95078E4 /* Pods-IndoThaiNewsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -711,6 +845,7 @@
 		};
 		7A98B06F21EDECA0002A809E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25F49C9473B5ABADD201E8B /* Pods-IndoThaiNewsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -732,6 +867,7 @@
 		};
 		7A98B07121EDECA0002A809E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A23B65FDD5B1E46C231A135 /* Pods-IndoThaiNewsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -752,6 +888,7 @@
 		};
 		7A98B07221EDECA0002A809E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2EE73A33A676BFB586F5ED4 /* Pods-IndoThaiNewsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
