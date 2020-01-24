@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Apv-B1-qdl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IndoThaiNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-49" y="118"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="xY7-K9-Bdv">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="Apv-B1-qdl" customClass="MainViewController" customModule="LastChanceDiet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kpj-2s-IFF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="SLb-lC-yJA"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="leftViewWidth">
+                            <real key="value" value="300"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="leftViewPresentationStyle">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftViewStatusBarHidden" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="0Fd-rY-Dcv" kind="custom" identifier="left" customClass="LGSideMenuSegue" id="uC5-R0-Tae"/>
+                        <segue destination="RN4-MK-xVt" kind="custom" identifier="side" customClass="LGSideMenuSegue" id="kGa-rA-A6h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JHN-77-H8W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1015" y="117"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wDK-GF-59p">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationController" navigationBarHidden="YES" id="RN4-MK-xVt" customClass="NavigationController" customModule="LastChanceDiet" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7H1-bF-6Ob">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AuF-M7-YEz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1766" y="117"/>
+        </scene>
+        <!--Left Menu View Controller-->
+        <scene sceneID="M3q-ot-DC1">
+            <objects>
+                <viewController storyboardIdentifier="LeftMenuViewController" id="0Fd-rY-Dcv" customClass="LeftMenuViewController" customModule="LastChanceDiet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZNG-Vd-QKx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="BU8-Jn-7yB">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <color key="backgroundColor" red="0.08235294118" green="0.28627450980000002" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MenuCell" id="JSa-qQ-Cvy" customClass="MenuCell" customModule="LastChanceDiet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="1" width="343" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JSa-qQ-Cvy" id="lLD-8T-3WF">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLE-eO-VC2">
+                                                    <rect key="frame" x="5" y="0.0" width="35.5" height="57"/>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="13"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hh7-bb-iry">
+                                                    <rect key="frame" x="0.0" y="57" width="343" height="1"/>
+                                                    <color key="backgroundColor" white="1" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="PLb-cf-5ua"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.08235294118" green="0.28627450980000002" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="KLE-eO-VC2" firstAttribute="top" secondItem="lLD-8T-3WF" secondAttribute="top" id="Kua-DD-9ah"/>
+                                                <constraint firstAttribute="bottom" secondItem="Hh7-bb-iry" secondAttribute="bottom" constant="2" id="OGv-Sp-ry9"/>
+                                                <constraint firstItem="Hh7-bb-iry" firstAttribute="top" secondItem="KLE-eO-VC2" secondAttribute="bottom" id="X5K-tj-ulH"/>
+                                                <constraint firstItem="Hh7-bb-iry" firstAttribute="leading" secondItem="lLD-8T-3WF" secondAttribute="leading" id="e8I-VG-mlR"/>
+                                                <constraint firstItem="KLE-eO-VC2" firstAttribute="leading" secondItem="lLD-8T-3WF" secondAttribute="leading" constant="5" id="lhV-Jk-WYQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="Hh7-bb-iry" secondAttribute="trailing" id="v1P-3f-sUn"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblTitle" destination="KLE-eO-VC2" id="96i-JD-05y"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="0Fd-rY-Dcv" id="Trr-RA-NES"/>
+                                    <outlet property="delegate" destination="0Fd-rY-Dcv" id="Ut9-H6-cmt"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.08235294118" green="0.28627450980000002" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="BU8-Jn-7yB" firstAttribute="top" secondItem="Vlj-Sc-GhX" secondAttribute="top" id="9RP-b6-zr1"/>
+                            <constraint firstItem="BU8-Jn-7yB" firstAttribute="leading" secondItem="Vlj-Sc-GhX" secondAttribute="leading" constant="16" id="Crm-8m-rIc"/>
+                            <constraint firstItem="Vlj-Sc-GhX" firstAttribute="trailing" secondItem="BU8-Jn-7yB" secondAttribute="trailing" constant="16" id="Z44-Fg-MpX"/>
+                            <constraint firstItem="BU8-Jn-7yB" firstAttribute="bottom" secondItem="Vlj-Sc-GhX" secondAttribute="bottom" id="ckx-fc-4ir"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Vlj-Sc-GhX"/>
+                    </view>
+                    <connections>
+                        <outlet property="menuOptionTableView" destination="BU8-Jn-7yB" id="LBS-U2-AZM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cEn-bt-NtQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1014" y="924"/>
+        </scene>
+    </scenes>
+</document>
